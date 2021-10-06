@@ -3,6 +3,3 @@ contact_links:
   - name: Join the Discussion
     url: https://github.com/nicole-obrien/demo-open-source-repo/discussions
     about: Request features, leave feedback or discuss ideas
-  - name: Report a Vulnerability
-    url: /security/policy
-    about: Please read our security policy to find out how to report a vulnerability
