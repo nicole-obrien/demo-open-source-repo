@@ -1,5 +1,14 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Join the Discussion
-    url: https://github.com/nicole-obrien/demo-open-source-repo/discussions
-    about: Request features, leave feedback or discuss ideas
+  - name: Need help?
+    url: https://github.com/nicole-obrien/demo-open-source-repo/discussions/categories/help-support
+    about: Ask the community for help or support
+  - name: Feature requests
+    url: https://github.com/nicole-obrien/demo-open-source-repo/discussions/categories/feature-requests
+    about: Request features or enhancements
+  - name: General feedback
+    url: https://github.com/nicole-obrien/demo-open-source-repo/discussions/categories/feedback
+    about: Leave us some feedback
+  - name: Join our Discord
+    url: https://discord.iota.org/
+    about: Chat with the devs and the community
