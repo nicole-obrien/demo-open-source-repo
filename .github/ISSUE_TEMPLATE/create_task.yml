@@ -28,7 +28,7 @@ body:
     validations:
       required: true
       
-   - type: textarea
+  - type: textarea
     id: acceptance_criteria
     attributes:
       label: Acceptance criteria
