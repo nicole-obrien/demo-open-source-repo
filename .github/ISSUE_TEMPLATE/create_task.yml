@@ -43,9 +43,9 @@ body:
       description: "Before submitting this task please ensure you have done the following:"
       options:
         - label: I have assigned this task to the correct people
-          required: true
+          required: false
         - label: I have added the most appropriate labels
-          required: true
+          required: false
         - label: I have linked the correct milestone and/or project
-          required: true
+          required: false
           
