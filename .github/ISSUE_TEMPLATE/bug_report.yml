@@ -5,6 +5,14 @@ title: '[Bug]: '
 labels: type:bug
 
 body:
+  - type: markdown
+    id: message
+    value: |
+      "## Reporting a bug
+       Thank you for helping us make [application name] better, by reporting a bug you have found. This issue may already be reported! Please search on the [issue tracker](https://github.com/nicole-obrien/demo-open-source-repo/issues) before creating one.
+       
+       This form is for bugs only and not for help or support using this application. Please visit the [help and support discussions forum](https://github.com/nicole-obrien/demo-open-source-repo/discussions/categories/help-support) or join our [discord](https://discord.iota.org/) for help."
+
   - type: textarea
     id: description
     attributes:
@@ -49,10 +57,6 @@ body:
         2.
         3.
         ...
-      value: |
-        1. 
-    validations:
-      required: false
 
   - type: textarea
     id: diagnostics
@@ -67,12 +71,23 @@ body:
       label: Errors
       description: Paste any errors that you see from the Error Log in the [App Name] menu.
       render: shell
+    
+  - type: checkboxes
+    id: duplicate_declaration
+    attributes:
+      label: Duplicate declaration
+      description: Please confirm that this is not a duplicate issue report.
+      options:
+        - label: I have searched the issues tracker for duplicates and there is none
+          required: true
       
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+          
+
