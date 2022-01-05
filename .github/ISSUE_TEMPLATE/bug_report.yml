@@ -6,7 +6,8 @@ labels: type:bug
 
 body:
   - type: markdown
-    value: "## Reporting a bug"
+    attributes:
+      value: "## Reporting a bug"
   - type: markdown
     attributes:
       value: |
