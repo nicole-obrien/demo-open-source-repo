@@ -1,9 +1,8 @@
 ---
 name: Bug report
 about: Fill in this form to report it, and help us improve
-title: '[Bug]: '
+title: [Bug]: 
 labels: type:bug
-assignees: ''
 
 body:
   - type: textarea
