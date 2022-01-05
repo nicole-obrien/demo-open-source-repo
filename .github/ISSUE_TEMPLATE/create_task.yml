@@ -23,7 +23,7 @@ body:
   - type: textarea
     id: requirements
     attributes:
-      label: Requirments
+      label: Requirements
       description: Briefly describe the issue.
     validations:
       required: true
