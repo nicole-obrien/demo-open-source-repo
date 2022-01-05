@@ -1,0 +1,79 @@
+---
+name: Bug report
+about: Fill in this form to report it, and help us improve
+title: '[Bug]: '
+labels: type:bug
+assignees: ''
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue description
+      description: Briefly describe the issue.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected_behaviour
+    attributes:
+      label: Expected behaviour
+      description: A concise description of what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behaviour
+    attributes:
+      label: Actual behaviour
+      description: A concise description of what actually happened.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: can_repro
+    attributes:
+      label: Can the issue reliably be reproduced?
+      options:
+        - 'Yes'
+        - 'No'
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro_steps
+    attributes:
+      label: Steps to reproduce the issue
+      description: Explain how the maintainer can reproduce the issue.
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+      value: |
+        1. 
+    validations:
+      required: false
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: Paste information that you see from the Diagnostics in the [App Name] menu.
+      render: shell
+
+  - type: textarea
+    id: errors
+    attributes:
+      label: Errors
+      description: Paste any errors that you see from the Error Log in the [App Name] menu.
+      render: shell
+      
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
