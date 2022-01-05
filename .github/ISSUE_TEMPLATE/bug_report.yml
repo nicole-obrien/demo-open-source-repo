@@ -9,8 +9,9 @@ body:
     value: "## Reporting a bug"
   - type: markdown
     attributes:
-      value: Thank you for helping us make [application name] better, by reporting a bug you have found. This issue may already be reported! Please search on the [issue tracker](https://github.com/nicole-obrien/demo-open-source-repo/issues) before creating one.
-      value: This form is for bugs only and not for help or support using this application. Please visit the [help and support discussions forum](https://github.com/nicole-obrien/demo-open-source-repo/discussions/categories/help-support) or join our [discord](https://discord.iota.org/) for help."
+      value: |
+        Thank you for helping us make [application name] better, by reporting a bug you have found. This issue may already be reported! Please search on the [issue tracker](https://github.com/nicole-obrien/demo-open-source-repo/issues) before creating one.
+        This form is for bugs only and not for help or support using this application. Please visit the [help and support discussions forum](https://github.com/nicole-obrien/demo-open-source-repo/discussions/categories/help-support) or join our [discord](https://discord.iota.org/) for help."
 
   - type: textarea
     id: description
