@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Fill in this form to report it, and help us improve
+description: Fill in this form to report it, and help us improve
 title: '[Bug]: '
 labels: type:bug
 
