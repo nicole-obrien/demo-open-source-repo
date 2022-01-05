@@ -1,0 +1,51 @@
+---
+name: Create a new task
+description: Create a new task to manage work
+title: '[Task]: '
+
+body:
+  - type: markdown
+    attributes:
+      value: "## Creating a task"
+  - type: markdown
+    attributes:
+      value: |
+        This form should be used by official maintainers only, to create new tasks to represent some work. Most tasks should be assigned to a milestone
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Task description
+      description: Briefly describe the issue.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirments
+      description: Briefly describe the issue.
+    validations:
+      required: true
+      
+   - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      description: Briefly describe the issue.
+    validations:
+      required: true
+      
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Creation checklist
+      description: Before submitting this task please ensure you have done the following:
+      options:
+        - label: I have assigned this task to the correct people
+          required: true
+        - label: I have added the most appropriate labels
+          required: true
+        - label: I have linked the correct milestone and/or project
+          required: true
+          
