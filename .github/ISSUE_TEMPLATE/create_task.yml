@@ -40,7 +40,7 @@ body:
     id: checklist
     attributes:
       label: Creation checklist
-      description: Before submitting this task please ensure you have done the following:
+      description: "Before submitting this task please ensure you have done the following:"
       options:
         - label: I have assigned this task to the correct people
           required: true
